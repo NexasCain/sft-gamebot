@@ -3600,4 +3600,4 @@ async def on_message(message):
 
 bot.run(Bot_Token)
 
-print("nexascain.exe has started successfully!")
+print("nexascain.exe has started successfully! I think")
