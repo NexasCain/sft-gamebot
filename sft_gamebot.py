@@ -2935,7 +2935,7 @@ async def on_message(message):
                                             achievement_won = True
 
                                     if achievement_won == False:
-                                        await bot.send_message(message.channel, wg_msg.author.id)
+                                        #await bot.send_message(message.channel, wg_msg.author.id)
                                         achievement['players'] += [(wg_msg.author.id)]
                                         await bot.send_message(wg_msg.author, "You just earned the achievement: **Gaming Nub**!")
 
@@ -3011,7 +3011,7 @@ async def on_message(message):
                                             achievement_won = True
 
                                     if achievement_won == False:
-                                        await bot.send_message(message.channel, react_msg.author.id)
+                                        #await bot.send_message(message.channel, react_msg.author.id)
                                         achievement['players'] += [(react_msg.author.id)]
                                         await bot.send_message(react_msg.author, "You just earned the achievement: **Gaming Nub**!")
 
