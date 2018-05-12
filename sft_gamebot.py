@@ -31,7 +31,7 @@ SFT_Token = os.environ.get('BOT_TOKEN')
 
 TEST_Token = os.environ.get('TEST_BOT_TOKEN')
 
-Bot_Token = TEST_Token
+Bot_Token = SFT_Token
 
 bot_spam_channel_id = "413470467719036940"
 
